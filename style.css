@@ -1,0 +1,410 @@
+body{
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 10vh;
+    width: 66%;
+    margin: auto;
+    align-items: center;
+}
+/*Настройка контейнеров*/
+.container40 {
+    width:40%;
+}
+.container-60 {
+    width:60%;
+}
+.container-log{
+    position:realtive;
+    z-index: 6;
+}
+/*top навигация*/
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #FFFFFF;
+    height: 10%; 
+
+}
+.navigation-menu-brend {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.navigation-menu-sibiria{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.navigation-menu-catalog{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.navigation-menu-buy{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+/*Настройка Слайдера*/
+.container-slider{
+    height: 510px;
+    width:100%;
+    
+}
+.container-slider-img{
+    height:510px;
+    
+}
+.ibc-slick-dots > li {
+    list-style-type: none;
+    /* width:10px;
+    height:10px; */
+    
+}
+.ibc-slick-dots > button {
+    width:10px;
+    height:10px;
+    
+}
+.ibc-slick-dot{
+
+    background-image: url(./img/Vector.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 15px;
+    margin-right: 5px;
+}
+.slick-active > .ibc-slick-dot{
+
+    background-image: url(./img/VectorFull.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.ibc-slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+    
+    border-radius:50%;
+    padding:10px;
+}
+
+
+.container-slider-item{
+
+    height: 510px;
+    width: 100vw;
+    background-size: auto 100%;
+    
+}
+.container-slider-item > img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+.slider-item-text-title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.35em;
+    line-height: 100%;
+    padding-top: 100px;
+
+    color: #333F48;
+}
+.slider-item-text-description{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.35em;
+    color: #333F48;
+}
+.slider-item-text{
+    display: flex;
+    height: 10vh;
+    width: 66%;
+    margin: auto;
+    flex-direction: column;
+}
+.container-slider-title{
+    position: absolute;
+    font-weight: 700;
+    left: 23%;
+    top: 33%;
+    z-index: 1;
+    font-family: 'Gotham Pro';
+    font-size: 3.125em;
+    line-height: 100%;
+    color: #333F48;
+}
+/*Подвал сайта*/
+.footer-main{
+    position: relative;
+    background:#FFFFFF;
+    height: 240px;
+}
+
+.container-footer{
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+    width: 85%;
+    display:flex;
+    background:#FFFFFF;
+    height: 240px;
+}
+
+.container-33{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+    background:#FFFFFF;
+    width:33%;
+    padding-top: 50px;
+}
+.container-footer-address{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.container-footer-address-2{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+  
+.container-footer-сonnect-with-us{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.container-footer-mail{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.social-network{
+    display:flex;
+    gap:20px;
+}
+
+.container-logo-img{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    
+}
+.newc40{
+    width:40%;
+}
+.newaaa{
+    width: 102px;
+    height: 217px;
+    position: relative;
+    border-radius: 41px;
+    background: #A1D884;
+    z-index: 2;
+}
+/*Настройка тела сайта*/
+.site-body{
+    width:100%;
+}
+.site-body-item{
+    display: flex;
+    width: 66%;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.site-body-item-container-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 10%;
+}
+.site-body-green-img {
+    width: 40%;
+    height: 3%;
+    padding:0px;
+}
+.site-body-title{
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 100%;
+    color: rgb(51, 63, 72);
+    margin: 0px;
+}
+.site-body-text{
+    
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+    color: #333F48;
+   
+}
+.site-body-h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    color: #333F48;
+}
+.site-body-text2{
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+    color: #333F48;
+    padding: 10px 0 0 0;
+}
+.logo-body > img{
+    height: 310px;
+}
+.catalog{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #333F48;
+}
+.catalog-img-green {
+    display:flex;
+    justify-content:center;
+    
+}
+.catalog-img{
+    display:flex;
+    gap:20px;
+    height: 210px;
+    justify-content:center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+/*Настроика bottom slider*/
+.slider-bottom{
+    width:100%;
+}
+.slider-bottom-item{
+    background: #A1D884;
+    height: 510px;
+    width:100%;
+}
+.slider-bottom-title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #333F48;
+    padding-top: 50px;
+}
+.slider-bottom-img{
+    display:flex;
+    justify-content:center;
+    padding-bottom:40px;
+    padding-top: 10px;
+}
+.slider-bottom-img-green{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.slider-bottom-img-green > img{
+    width: 150px;
+    height: 150px;
+    
+}
+.slider-bottom-btn{
+    width: 92px;     
+    display: flex;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333F48;
+    padding: 5px 5px;
+    gap: 10px;
+    width: 152px;
+    height: 36px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.slider-bottom-container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.slick-list {
+    overflow:hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display:flex;
+}
+/* Лента слайдов green */
+.slider-bottom-img-green-container-img{
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+}
+
+.slider-bottom-img-green-container-img > img{
+    height: inherit;
+    width: inherit;
+}
