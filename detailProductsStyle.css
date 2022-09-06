@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 10vh;
+    width: 66%;
+    margin: auto;
+    align-items: center;
+}
+/*Настройка контейнеров*/
+.container40 {
+    width:40%;
+}
+.container-60 {
+    width:60%;
+}
+.container-log{
+    position:realtive;
+    z-index: 6;
+}
+.container-logo-img {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+/*top навигация*/
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #FFFFFF;
+    height: 10%; 
+
+}
+.navigation-menu-brend {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.navigation-menu-sibiria{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.navigation-menu-catalog{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.navigation-menu-buy{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.newc40{
+    width:40%;
+}
+.newaaa{
+    width: 102px;
+    height: 217px;
+    position: relative;
+    border-radius: 41px;
+    background: #A1D884;
+    z-index: 2;
+}
+.container-navigation-menu{
+    display: flex;
+    width: 66%;
+    margin: auto;
+}
+.container-navigation-menu-item{
+    display:flex;
+    margin-top:110px;
+}
