@@ -54,9 +54,10 @@ body{
     line-height: 120%;
 }
 /*Настройка Слайдера*/
+/**/
 .container-slider{
     height: 510px;
-    width:100%;
+   /*width:100%;*/
     
 }
 .container-slider-img{
@@ -244,7 +245,7 @@ body{
     background: #A1D884;
     z-index: 2;
 }
-/*Настройка тела сайта*/
+/*Настройка контента сайта*/
 .site-body{
     width:100%;
 }

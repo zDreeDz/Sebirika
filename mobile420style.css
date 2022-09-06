@@ -1,0 +1,150 @@
+@media (max-width: 420px) { 
+    .newaaa{
+        width: 51px;
+        height: 108px;
+        border-radius: 21px;
+    }
+    .container-slider{
+        
+    }
+    .container-logo-img {
+        top: 40%;
+        left: 16%;
+        height: 45%;
+    }
+    .slider-item-text-title {
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.10em;
+        line-height: 100%;
+        padding-top: 40px;
+        color: #333F48;
+    }
+    .slider-item-text-description {
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.45em;
+        color: #333F48;
+    }
+    .ibc-slick-dot{
+        display:none;
+    }
+    .work-area {
+        height:150px;
+    }
+    .site-body-item-container-text {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-right: -6%;
+        order: 1;
+        margin-top: 20px;
+    }
+    .site-body-item {
+        display: flex;
+        width: 66%;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .site-body-title {
+        font-family: "Gotham Pro";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 100%;
+        color: rgb(51, 63, 72);
+        margin: 0px;
+    }
+    .site-body-text {
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        color: #333F48;
+    }
+    .site-body-h1 {
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        color: #333F48;
+    }
+    .site-body-text2 {
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        color: #333F48;
+        padding: 10px 0 0 0;
+    }
+    .logo-body > img {
+        height: 150px;
+    }
+    .catalog {
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 100%;
+        text-align: center;
+        color: #333F48;
+    }
+    .catalog-img {
+        display: flex;
+        gap: 5px;
+        height: 90px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .catalog-img-green >img {
+        width: 100px;
+    }
+    .slider-bottom-img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .slider-bottom-img >img{
+        width:120px;
+    }
+    .slider-bottom-img-green-container-img {
+        height: 100px;
+        width: 100px;
+        margin-right: 15px;
+    }
+    .slider-bottom-title {
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #333F48;
+        padding-top: 20px;
+    }
+    .slider-bottom-item {
+        background: #A1D884;
+        height: 210px;
+        width: 100%;
+    }
+    .slider-bottom-img-green-container-img > img{
+        height: inherit;
+        width: inherit;
+    }
+    .slider-bottom-container-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
