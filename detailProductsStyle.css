@@ -165,12 +165,12 @@ body{
     width: 100%;
 }
 /* Настройка описания продукта */
-.container-description-item{
+.container-description-item {
     padding-left: 80px;
     padding-top: 50px;
 
 }
-.description-item-title{
+.description-item-title {
     padding-bottom: 4px;
     font-family: 'Gotham Pro';
     font-style: normal;
@@ -179,7 +179,7 @@ body{
     line-height: 140%;
     color: #333F48;
 }
-.description-item-h1{
+.description-item-h1 {
     padding-bottom: 10px;
     font-family: 'Gotham Pro';
     font-style: normal;
@@ -195,4 +195,42 @@ body{
     font-size: 40px;
     line-height: 120%;
     color: #333F48;
+}
+.description-item-old-price {
+    font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 120%;
+text-decoration-line: line-through;
+color: #BDBDBD;
+}
+.container-description-item-all-price {
+    display:flex;
+    gap:20px;
+    padding-bottom:10px;
+}
+.description-item-bth {
+    padding-bottom: 30px;
+}
+.description-img-pink {
+    padding-bottom: 30px;
+}
+.description-item-product-description {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #333F48;
+    padding-bottom:30px;
+}
+.description-item-ingredients {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+    padding-bottom:20px;
 }
