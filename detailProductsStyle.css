@@ -198,12 +198,12 @@ body{
 }
 .description-item-old-price {
     font-family: 'Gotham Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 120%;
-text-decoration-line: line-through;
-color: #BDBDBD;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    text-decoration-line: line-through;
+    color: #BDBDBD;
 }
 .container-description-item-all-price {
     display:flex;
@@ -234,3 +234,134 @@ color: #BDBDBD;
     color: #333F48;
     padding-bottom:20px;
 }
+/* Настройка ингредиенты img */
+.container-item-ingredients-img {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.flowers{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+/* ---------------------------- */
+.description-item-application {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+    padding-bottom:10px;
+}
+.description-item-application-h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+    padding-bottom:30px;
+}
+.description-item-storage-rules {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+    padding-bottom:10px;
+}
+.description-item-storage-rules-h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+    padding-bottom:200px;
+}
+/* Настройка slider bottom */
+.container-description-slider{
+    width: 100%;
+}
+.container-description-slider-items {
+    background: #A1D884;
+    height: 610px;
+    width: 100%;
+}
+.description-slider-items-title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #333F48;
+    padding-left: 15%;
+    padding-bottom:10px;
+}
+.description-slider-items-bottom-img {
+    display:flex;
+    gap:20px;
+   
+}
+.description-slider-items{
+    padding-left: 15%;
+    padding-bottom:60px;
+}
+.description-slider-bottom-img-catalog {
+}
+.container-footer-catalog{
+    display:flex;
+    height: 238px;
+    width: 66%;
+    margin: auto;
+    align-items: center;
+}
+.container-footer-catalog-item{
+    display:flex;
+}
+.container-footer-catalog-item-address{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+    display: flex;
+    flex-direction: column;
+    margin-right: 66px;
+}
+.container-footer-catalog-item-address-2{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+}
+.container-footer-catalog-item-connect{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+    display: flex;
+    flex-direction: column;
+    margin-right: 66px;
+}
+.container-footer-catalog-item-connect-2{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+}
+.container-footer-catalog-item-img{
+   margin-left:40px;
+}
+
+
