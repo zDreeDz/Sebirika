@@ -15,6 +15,9 @@ body{
 .container-60 {
     width:60%;
 }
+.hedar-burger{
+    display:none
+}
 .container-log{
     position:realtive;
     z-index: 6;
