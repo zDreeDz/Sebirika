@@ -15,6 +15,9 @@ body{
 .container-60 {
     width:60%;
 }
+.container-burger{
+    display:none;
+}
 .hedar-burger{
     display:none
 }
@@ -23,6 +26,12 @@ body{
     z-index: 6;
 }
 /*top навигация*/
+.burger-navigation{
+    /* display:none; */
+}
+.bgmenu{
+    display:none;
+}
 .navigation {
     display: flex;
     justify-content: center;
