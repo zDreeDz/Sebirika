@@ -227,4 +227,14 @@
         margin-top: 5px;
         margin-bottom: 10px;
     }
+    .container-footer-ingredients-item {
+        align-items: center;
+        display: flex;
+    }
+   .container-footer-ingredients-item-img {
+        display: flex;
+        margin-left: 20%;
+        margin-top: 10px;
+        gap: 20px;
+    }
 }
