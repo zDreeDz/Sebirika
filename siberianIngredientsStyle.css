@@ -102,130 +102,350 @@ body{
 }
 .ingredients-img-linden{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
+
 .ingredients-img-linden-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-linden-text >h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-linden-text >span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+
 .ingredients-img-rose-hip{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .ingredients-img-rose-hip-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-rose-hip-text h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-rose-hip-text span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
 .ingredients-img-linen{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
+    
 }
 .ingredients-img-linen-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-linen-text > h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-linen-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+
+
 .ingredients-img-hemp-oil{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-hemp-oil-text{
     display: flex;
     flex-direction: column;
-
 }
+.ingredients-img-hemp-oil-text > h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-hemp-oil-text >span {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+
 .ingredients-img-birch-juice{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-birch-juice-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-birch-juice-text > h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-birch-juice-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+
 .ingredients-img-sea-buckthorn{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
+    
 }
 .ingredients-img-sea-buckthorn-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-sea-buckthorn-text >h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-sea-buckthorn-text >span {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
 .ingredients-img-viburnum{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-viburnum-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-viburnum-text >h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-viburnum-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
 .ingredients-img-cranberry{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-cranberry-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-cranberry-text > h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-cranberry-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
 .ingredients-img-juniper{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-juniper-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-juniper-text > h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-juniper-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
 .ingredients-img-sage{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-sage-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-sage-text > h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-sage-text >span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
 .ingredients-img-chamomile{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 
 .ingredients-img-chamomile-text {
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-chamomile-text > h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-chamomile-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
 .ingredients-img-nettle{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-nettle-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-nettle-text > h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-nettle-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48
+}
 .ingredients-img-sweet-clover{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
 }
 .ingredients-img-sweet-clover-text{
     display: flex;
     flex-direction: column;
 }
+.ingredients-img-sweet-clover-text >h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-sweet-clover-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48
+}
 .ingredients-img-cedar{
     display: flex;
-    flex-direction: row;
-    padding-top:40px;
+    flex-direction: column;
+    
 }
 .ingredients-img-cedar-text{
     display: flex;
     flex-direction: column;
+}
+.ingredients-img-cedar-text >h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.ingredients-img-cedar-text > span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48
 }
 .container-footer{
     display: flex;

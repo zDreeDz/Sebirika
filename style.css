@@ -165,52 +165,55 @@ body{
     color: #333F48;
 }
 /*Подвал сайта*/
-.footer-main{
-    position: relative;
-    background:#FFFFFF;
-    height: 240px;
+.container-footer-ingredients{
+    display: flex;
+    width: 66%;
+    margin: auto;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.container-footer{
-    display: flex;
-    width: 66%;
-    margin: auto;
-   
-}
-.container-footer-contact{
-    display: flex;
-    height: 40vh;
-    width: 66%;
-    margin: auto;
-    align-items: center;
-    margin-top:120px;
-}
-.container-footer-contact-form{
-    display: flex;
-    flex-direction: column;
-}
-  
-.container-footer-сonnect-with-us{
+
+.container-footer-ingredients-item-address {
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 140%;
     color: #272727;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
-.container-footer-mail{
+.container-footer-ingredients-item-address-2{
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #272727;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+}
+.container-footer-ingredients-item-connect{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+}
+.container-footer-ingredients-item-connect-2 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #272727;
+}
+.container-footer-ingredients-item-img{
+    display: flex;
+    gap:40px
+}
+.container-footer-contact-form{
+    display: flex;
+    flex-direction: column;
 }
 .social-network{
     display:flex;
