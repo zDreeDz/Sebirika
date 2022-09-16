@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+.bgmenu{
+    display:none;
+}
 .container {
     display: flex;
     height: 10vh;
@@ -37,7 +40,7 @@ body{
 .navigation-menu-brend {
     font-family: 'Gotham Pro';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 120%;
 }
 .navigation-menu-sibiria{
@@ -49,7 +52,7 @@ body{
 .navigation-menu-catalog{
     font-family: 'Gotham Pro';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 120%;
 }
 .navigation-menu-buy{
@@ -294,7 +297,7 @@ body{
 .description-slider-items-title{
     font-family: 'Gotham Pro';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 40px;
     line-height: 100%;
     color: #333F48;
@@ -302,38 +305,38 @@ body{
     padding-bottom:10px;
 }
 .description-slider-items-bottom-img {
-    display:flex;
-    gap:20px;
+    /* display:flex;
+    gap:20px; */
    
 }
-.description-slider-items{
+.description-slider-items-img-green {
     padding-left: 15%;
     padding-bottom:60px;
+
 }
 .description-slider-bottom-img-catalog {
 }
-.container-footer-catalog{
-    display:flex;
-    height: 238px;
+
+.container-footer-ingredients{
+    display: flex;
     width: 66%;
     margin: auto;
+    height: 15vh;
+    justify-content: space-between;
     align-items: center;
 }
-.container-footer-catalog-item{
-    display:flex;
-}
-.container-footer-catalog-item-address{
+
+
+.container-footer-ingredients-item-address {
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 140%;
     color: #272727;
-    display: flex;
-    flex-direction: column;
-    margin-right: 66px;
+    
 }
-.container-footer-catalog-item-address-2{
+.container-footer-ingredients-item-address-2{
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 400;
@@ -341,18 +344,15 @@ body{
     line-height: 140%;
     color: #272727;
 }
-.container-footer-catalog-item-connect{
+.container-footer-ingredients-item-connect{
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 140%;
     color: #272727;
-    display: flex;
-    flex-direction: column;
-    margin-right: 66px;
 }
-.container-footer-catalog-item-connect-2{
+.container-footer-ingredients-item-connect-2 {
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 400;
@@ -360,8 +360,9 @@ body{
     line-height: 140%;
     color: #272727;
 }
-.container-footer-catalog-item-img{
-   margin-left:40px;
+.container-footer-ingredients-item-img{
+    display: flex;
+    gap:40px
 }
 
 
