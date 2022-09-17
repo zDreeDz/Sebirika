@@ -305,10 +305,24 @@ body{
     padding-bottom:10px;
 }
 .description-slider-items-bottom-img {
-    /* display:flex;
-    gap:20px; */
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
 }
+.description-slider-bottom-img-catalog{
+    height: 386px;
+    width: 448px;
+    margin-right: 25px;
+    
+}
+
+.description-slider-bottom-img-catalog >img {
+    height: inherit;
+    width: inherit;
+} 
+   
+
 .description-slider-items-img-green {
     padding-left: 15%;
     padding-bottom:60px;
