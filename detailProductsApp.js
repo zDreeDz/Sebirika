@@ -9,9 +9,10 @@ $(document).ready(function(){
         }
         });    
       $('.description-slider-items-bottom-img').slick({
-        slidesToShow: 5,
+        slidesToShow: 1,
+        variableWidth: true,
         // dots: false,
-        // arrows:false,
+        arrows:false,
         // dotsClass: 'ibc-slick-dots-detail',
         /*customPaging: function(slider, i) {      
             return '<div class="custom-slick-dots" id=' + i + "></div>";
