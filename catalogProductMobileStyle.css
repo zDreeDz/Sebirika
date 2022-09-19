@@ -1,0 +1,143 @@
+.container-burger{
+    display:block;
+    width:100px;
+    height:100px;
+}
+.hedar-burger{
+    display:block;
+    position: relative;
+    width:30px;
+    height:20px;
+    float: right; 
+}
+.hedar-burger > span {
+    position:absolute;
+    background-color:#A1D884;
+    left:0px;
+    width:100%;
+    height:2px;
+    top:9px;
+    transition:all 0.3s ease 0.3s;
+}
+.hedar-burger:before,
+.hedar-burger:after {
+    content:'';
+    background-color:#A1D884;
+    position:absolute;
+    width:100%;
+    height:2px;
+    left:0px;
+    transition:all 0.3s ease 0.3s;
+}
+.hedar-burger:before {
+    top:0px;
+}
+.hedar-burger:after{
+    bottom:0px;
+}
+.hedar-burger.active:before {
+    transform: rotate(45deg);
+    top:9px;
+}
+.hedar-burger.active:after {
+    transform: rotate(-45deg);
+    bottom:9px;
+}
+.hedar-burger.active > span{
+    transform: scale(0);
+}
+
+
+.navigation {
+    display:none;
+}
+.burger-navigation {
+}
+.burger-navigation > li{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #16231C;
+}
+.bgmenu {
+    top: -200%;
+    height: 200vh;
+    width: 100vw;
+    position: absolute;
+    background: #F2ACB9;
+    /* position: relative;  */
+    z-index: 2;
+    display: block;
+    opacity: 1;
+    transition:all 0.3s ease 0.3s;
+}
+.bgmenu.active{
+    top:70px;
+}
+.newaaa{
+    width: 51px;
+    height: 108px;
+    border-radius: 21px;
+}
+
+.container-logo-img {
+    top: 40%;
+    left: 16%;
+    height: 45%;
+}
+.container-60 {
+    width: 60%;
+    margin-left: 170px;
+}
+.container-navigation-menu {
+    display:none;
+}
+.work-area-item-title-h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #333F48;
+    height: 10vh;
+}
+.work-area-item-img {
+    display: flex;
+    padding-top: 10px;
+    width: 50%;
+}
+.container-menu-btn {
+    display: flex;
+    height: 10vh;
+    width: 66%;
+    margin: auto;
+    gap: 10px;
+    flex-direction: column;
+    padding-bottom: 240px;
+}
+.container-work-area-catalog-img {
+    display: grid;
+    grid-template-columns: 66%;
+    column-gap: 20px;
+}
+.container-work-area-catalog-img >img {
+    padding-bottom: 30px;
+    width: 250px;
+}
+.container-footer-ingredients {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    margin: auto;
+    align-items:start;
+    padding-top:40px;
+}
+.container-footer-ingredients-item-img {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
