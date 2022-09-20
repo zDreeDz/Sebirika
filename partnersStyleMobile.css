@@ -1,0 +1,207 @@
+.container-burger{
+    display:block;
+    width:100px;
+    height:100px;
+}
+.hedar-burger{
+    display:block;
+    position: relative;
+    width:30px;
+    height:20px;
+    float: right; 
+}
+.hedar-burger > span {
+    position:absolute;
+    background-color:#A1D884;
+    left:0px;
+    width:100%;
+    height:2px;
+    top:9px;
+    transition:all 0.3s ease 0.3s;
+}
+.hedar-burger:before,
+.hedar-burger:after {
+    content:'';
+    background-color:#A1D884;
+    position:absolute;
+    width:100%;
+    height:2px;
+    left:0px;
+    transition:all 0.3s ease 0.3s;
+}
+.hedar-burger:before {
+    top:0px;
+}
+.hedar-burger:after{
+    bottom:0px;
+}
+.hedar-burger.active:before {
+    transform: rotate(45deg);
+    top:9px;
+}
+.hedar-burger.active:after {
+    transform: rotate(-45deg);
+    bottom:9px;
+}
+.hedar-burger.active > span{
+    transform: scale(0);
+}
+
+
+.navigation {
+    display:none;
+}
+.burger-navigation {
+}
+.burger-navigation > li{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #16231C;
+}
+.bgmenu {
+    top: -200%;
+    height: 200vh;
+    width: 100vw;
+    position: absolute;
+    background: #F2ACB9;
+    /* position: relative;  */
+    z-index: 2;
+    display: block;
+    opacity: 1;
+    transition:all 0.3s ease 0.3s;
+}
+.bgmenu.active{
+    top:70px;
+}
+
+.newaaa{
+    width: 51px;
+    height: 108px;
+    border-radius: 21px;
+}
+.container-logo-img {
+    top: 40%;
+    left: 16%;
+    height: 45%;
+}
+.work-area-item-title-h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #333F48;
+    height: 10vh;
+}
+.work-area-item-title-h2 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #333F48;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.container-partners {
+    display: flex;
+    height: 27vh;
+    width: 66%;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 40px;
+    
+}
+.container-feedback-item-h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #333F48;
+}
+.container-partners-img {
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;
+    flex-direction:column;
+}
+.container-partners-img > img{
+    width:150px;
+    height:150px;
+}
+.container-feedback-contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    /* align-content: center; */
+    align-items: center;
+}
+.name-form {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+    opacity: 0.5;
+    width: 290px;
+    height: 50px;
+    border-radius: 14px;
+    background: #F2F2F2;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.email-form {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+    opacity: 0.5;
+    width: 290px;
+    height: 50px;
+    border-radius: 14px;
+    background: #F2F2F2;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.message-form {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+    opacity: 0.5;
+    width: 290px;
+    height: 150px;
+    border-radius: 14px;
+    background: #F2F2F2;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.container-work-area-ingredients-img {
+    display: grid;
+    grid-template-columns: 60%;
+    column-gap: 20px;
+}
+.container-footer-ingredients {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    margin: auto;
+    align-items:start;
+    padding-top:40px;
+}
+.container-footer-ingredients-item-img {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
