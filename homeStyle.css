@@ -323,13 +323,14 @@ body{
     justify-content:center;
     padding-top:50px;
     padding-bottom:50px;
+    background: #A1D884;
 }
 /*Настроика bottom slider*/
 .slider-bottom{
     width:100%;
 }
 .slider-bottom-item{
-    background: #A1D884;
+    background: #FFFFFF;
     height: 510px;
     width:100%;
 }
@@ -372,7 +373,7 @@ body{
     gap: 10px;
     width: 152px;
     height: 36px;
-    background: #FFFFFF;
+    background: #A1D884;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
