@@ -87,6 +87,14 @@
     .container-slider{
         
     }
+    .container-slider-item{
+        height: 210px;
+    }
+    .site-body-green-img {
+        width: 65%;
+        height: 3%;
+        padding: 0px;
+    }
     .container-logo-img {
         top: 40%;
         left: 16%;
@@ -144,7 +152,7 @@
         font-family: 'Gotham Pro';
         font-style: normal;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 16px;
         line-height: 140%;
         color: #333F48;
     }
@@ -152,14 +160,14 @@
         font-family: 'Gotham Pro';
         font-style: normal;
         font-weight: 700;
-        font-size: 11px;
+        font-size: 16px;
         color: #333F48;
     }
     .site-body-text2 {
         font-family: 'Gotham Pro';
         font-style: normal;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 16px;
         line-height: 140%;
         color: #333F48;
         padding: 10px 0 0 0;
@@ -177,13 +185,18 @@
         color: #333F48;
     }
     .catalog-img {
-        display: flex;
-        gap: 5px;
+        display: grid;
+        grid-template-columns: 33% 33%;
+        column-gap: 0px;
+        height: 150px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 60px;
+     }
+    .catalog-img >img{
         height: 90px;
-        justify-content: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+        width: 100%;
+     }
     .catalog-img-green >img {
         width: 100px;
     }
@@ -212,21 +225,24 @@
         padding-top: 20px;
     }
     .slider-bottom-item {
-        background: #A1D884;
+        background: #FFFFFF;
         height: 210px;
         width: 100%;
     }
     .slider-bottom-img-green-container-img > img{
         height: inherit;
         width: inherit;
+        border-radius: 50px;
     }
     .slider-bottom-container-btn {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
         margin-top: 5px;
         margin-bottom: 10px;
+        margin-left: 20px;
     }
+
     .container-footer-ingredients {
         display: flex;
         flex-direction: column;
