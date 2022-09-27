@@ -161,7 +161,7 @@ body{
     margin-top: -20px;
     z-index: 1;
     position: absolute;
-    padding-left: 22%;
+    padding-left: 43%;
    
 }
 .container-slider-img-slider .slick-slide img {
@@ -182,11 +182,14 @@ body{
     line-height: 140%;
     color: #333F48;
 }
+.description-item-star{
+    display:flex;
+}
 .description-item-h1 {
     padding-bottom: 10px;
     font-family: 'Gotham Pro';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #333F48;
@@ -195,9 +198,11 @@ body{
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 16px;
     line-height: 120%;
     color: #333F48;
+    text-decoration:underline;
+    padding-left: 20px;
 }
 .description-item-old-price {
     font-family: 'Gotham Pro';
@@ -213,20 +218,41 @@ body{
     gap:20px;
     padding-bottom:10px;
 }
-.description-item-bth {
-    padding-bottom: 30px;
+.description-item-star{
+    padding-top:30px;
+    padding-bottom:30px;
 }
-.description-img-pink {
+.description-item-buy {
     padding-bottom: 30px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+}
+.description-img-pathers {
+   display:flex;
+   padding-bottom:30px;
+   gap:20px;
+}
+.description-img-pathers-buy{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: right;
+    color: #F2ACB9;
+    padding-left:200px;
 }
 .description-item-product-description {
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 140%;
     color: #333F48;
-    padding-bottom:30px;
 }
 .description-item-ingredients {
     font-family: 'Gotham Pro';
@@ -238,53 +264,40 @@ body{
     padding-bottom:20px;
 }
 /* Настройка ингредиенты img */
-.container-item-ingredients-img {
+.container-item-properties-img {
     display: flex;
     align-content: center;
     align-items: center;
     padding-bottom: 30px;
+    gap:30px;
 }
-.flowers{
-    padding-left: 10px;
-    padding-right: 20px;
+.container-сomponents{
+    display: flex;
+    width: 66%;
+    margin: auto;
+    height: 15vh;
+    flex-direction: column;
+    padding-top: 130px;
+}
+.container-сomponents-title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+    padding-bottom:10px;
+}
+.container-сomponents-h1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
 }
 /* ---------------------------- */
-.description-item-application {
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 120%;
-    color: #333F48;
-    padding-bottom:10px;
-}
-.description-item-application-h1 {
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #333F48;
-    padding-bottom:30px;
-}
-.description-item-storage-rules {
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 120%;
-    color: #333F48;
-    padding-bottom:10px;
-}
-.description-item-storage-rules-h1 {
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #333F48;
-    padding-bottom:200px;
-}
+
 /* Настройка slider bottom */
 .container-description-slider{
     width: 100%;
@@ -327,12 +340,151 @@ body{
     padding-bottom:60px;
 
 }
+.container-ingredients{
+    display: flex;
+    width: 66%;
+    margin: auto;
+    height:50vh;
+}
+.container-ingredients-items-img{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.container-mode-of-application{
+    display: flex;
+    width: 66%;
+    margin: auto;
+    height:40vh;
+    flex-direction: column;
+}
+.container-mode-of-application-title{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333F48;
+    padding-top:56px;
+}
+.container-mode-of-application-img{
+    display:flex;
+    padding-bottom:56px;
+    align-items: center;
+    gap:20px;
+}
+.container-mode-of-application-img >span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+/* Отзывы сайта*/
+.container-reviews{
+    display: flex;
+    width: 66%;
+    margin:auto;
+    padding-bottom:50px;
+}
+.container-reviews-items{
+    width:100%;
+}
+.container-reviews-title{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.container-reviews-title-1{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #333F48;
+}
+.container-reviews-btn{
+    display:flex;
+    justify-content: flex-end;
+    padding-right:50px;
+}
+.container-reviews-btn-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 170px;
+    height: 50px;
+    background: #A1D884;
+    border-radius: 30px;
+    ont-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+.container-reviews-users{
+    width:100%
+}
+.container-reviews-users-item{
+    display: grid;
+    width: 66%;
+    margin:auto;
+    
+}
+.container-reviews-users-id{
+    display: grid;
+    grid-template-columns: 10% 65%;
+    /* column-gap: 40px; */
+}
+.container-reviews-users-name{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+.container-reviews-users-name-text{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333F48;
+}
+.container-reviews-users-rating{
+    padding-bottom: 40px;
+}
+.show-more{
+    display: grid;
+    width: 66%;
+    margin:auto;
+}
+.show-more-text{
+    padding-left: 10%;
+    padding-top: 40px;
+}
+.show-more-text >span{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #333F48;
 
+}
+/* Настройка подвала сайта*/
 .container-footer-ingredients{
     display: flex;
     width: 66%;
     margin: auto;
-    height: 15vh;
+    height: 30vh;
     justify-content: space-between;
     align-items: center;
 }

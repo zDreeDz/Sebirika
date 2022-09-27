@@ -67,6 +67,9 @@ body{
 }
 /*Настройка Слайдера*/
 /**/
+.slider-multiple-items-mobile{
+    display:none
+}
 .container-slider{
     height: 510px;
    /*width:100%;*/

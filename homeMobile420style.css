@@ -84,6 +84,13 @@
         height: 108px;
         border-radius: 21px;
     }
+    .slider-multiple-items{
+        display:none;
+    }
+    .slider-multiple-items-mobile{
+        display:block;
+    }
+
     .container-slider{
         
     }

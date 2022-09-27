@@ -16,6 +16,17 @@ $(document).ready(function(){
           return `<div class="ibc-slick-dot"></div>`
         }
       });
+      $('.slider-multiple-items-mobile').slick({
+        infinite: true,
+        arrows:false,
+        dots: true,
+        dotsClass: 'ibc-slick-dots',
+        slidesToShow: 1,
+        variableWidth: true,
+        customPaging: function(slick, index) {
+          return `<div class="ibc-slick-dot"></div>`
+        }
+      });
     $('.slider-bottom-img-green').slick({
       infinite: true,
       arrows:false,
