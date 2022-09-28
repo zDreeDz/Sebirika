@@ -64,19 +64,20 @@
     color: #16231C;
 }
 .bgmenu {
-    top: -200%;
+    display: none;
     height: 200vh;
     width: 100vw;
     position: absolute;
     background: #F2ACB9;
     /* position: relative;  */
     z-index: 2;
-    display: block;
+    
     opacity: 1;
     transition:all 0.3s ease 0.3s;
 }
 .bgmenu.active{
     top:70px;
+    display: block;
 }
 
 .newaaa{
