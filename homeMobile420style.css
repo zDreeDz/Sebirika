@@ -13,7 +13,7 @@
     }
     .hedar-burger > span {
         position:absolute;
-        background-color:#A1D884;
+        background-color:#333F48;
         left:0px;
         width:100%;
         height:2px;
@@ -23,7 +23,7 @@
     .hedar-burger:before,
     .hedar-burger:after {
         content:'';
-        background-color:#A1D884;
+        background-color:#333F48;
         position:absolute;
         width:100%;
         height:2px;
@@ -90,7 +90,13 @@
     .slider-multiple-items-mobile{
         display:block;
     }
-
+    .slider-item-text-title-mobile, .slider-item-text-description-mobile{
+        display:none;
+    }
+    .logo-body-mobile{
+        display:block;
+        padding-top:240px;
+    }
     .container-slider{
         
     }
@@ -139,7 +145,7 @@
     }
     .site-body-item {
         display: flex;
-        width: 66%;
+        width: 100%;
         margin: auto;
         flex-direction: column;
         align-items: center;
@@ -154,6 +160,7 @@
         line-height: 100%;
         color: rgb(51, 63, 72);
         margin: 0px;
+        padding-bottom: 10px;
     }
     .site-body-text {
         font-family: 'Gotham Pro';
@@ -162,6 +169,7 @@
         font-size: 16px;
         line-height: 140%;
         color: #333F48;
+        padding-top: 10px;
     }
     .site-body-h1 {
         font-family: 'Gotham Pro';
@@ -182,18 +190,25 @@
     .logo-body > img {
         height: 150px;
     }
+    .container-catalog {
+        width: 100%;
+        background: #A1D884;
+        height: 70vh;
+    }
+
     .catalog {
         font-family: 'Gotham Pro';
         font-style: normal;
         font-weight: 400;
-        font-size: 28px;
+        font-size: 32px;
         line-height: 100%;
-        text-align: center;
+        text-align: start;
         color: #333F48;
+        width:90%;
     }
     .catalog-img {
         display: grid;
-        grid-template-columns: 33% 33%;
+        grid-template-columns: 50% 50%;
         column-gap: 0px;
         height: 150px;
         width: 100%;
@@ -201,20 +216,28 @@
         padding-bottom: 60px;
      }
     .catalog-img >img{
-        height: 90px;
-        width: 100%;
+        height: 120px;
+        width: 160px;
      }
+     .catalog-img-green {
+        display: flex;
+        justify-content: start;
+        width: 90%;
+        margin: auto;
+    }
     .catalog-img-green >img {
-        width: 100px;
+        width: 220px;
     }
     .slider-bottom-img {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         padding-bottom: 10px;
         padding-top: 0px;
+        width:90%
     }
     .slider-bottom-img >img{
-        width:120px;
+        width: 220px;
+        padding-bottom: 10px;
     }
     .slider-bottom-img-green-container-img {
         height: 100px;
@@ -222,46 +245,85 @@
         margin-right: 15px;
     }
     .slider-bottom-title {
+        padding-bottom: 10px;
+        padding-top: 20px;
+        width:90%;
         font-family: 'Gotham Pro';
         font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
+        font-weight: 700;
+        font-size: 32px;
         line-height: 100%;
-        text-align: center;
+        text-align: start;
         color: #333F48;
-        padding-top: 20px;
+        
     }
     .slider-bottom-item {
         background: #FFFFFF;
         height: 210px;
         width: 100%;
+        padding-top: 20px;
     }
     .slider-bottom-img-green-container-img > img{
         height: inherit;
         width: inherit;
         border-radius: 50px;
     }
+    .slider-bottom-img-green-container-img-img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+    }
     .slider-bottom-container-btn {
         display: flex;
         justify-content: start;
         align-items: start;
-        margin-top: 5px;
+        margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
+
+    }
+    .slider-bottom-btn {
+        width: 92px;
+        display: flex;
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #333F48;
+        padding: 5px 5px;
+        gap: 10px;
+        width: 133px;
+        height: 30px;
+        background: #A1D884;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+   .slider-bottom-img-green-container-img:hover > span {
+        display: block;
+        position: absolute;
+        top: 36%;
+        left: 10%;
+        font-size: 30px;
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 700;
     }
 
     .container-footer-ingredients {
         display: flex;
         flex-direction: column;
-        width: 66%;
+        width: 90%;
         margin: auto;
         align-items:start;
-        padding-top:40px;
+        padding-top: 90px;
 }
     .container-footer-ingredients-item-img {
         display: flex;
-        gap: 30px;
+        /* gap: 30px; */
         margin-top: 20px;
         padding-bottom: 20px;
+        margin-left: 50px;
+        padding-top: 20px;
 }
 }

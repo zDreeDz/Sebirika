@@ -68,7 +68,10 @@ body{
 /*Настройка Слайдера*/
 /**/
 .slider-multiple-items-mobile{
-    display:none
+    display:none;
+}
+.logo-body-mobile{
+    display:none;
 }
 .container-slider{
     height: 510px;
