@@ -127,6 +127,9 @@ body{
     margin: auto;
     gap: 10px;
 }
+.container-menu-btn-mobile{
+    display:none;
+}
 .btn-menu-all-products {
     padding: 14px 20px;
     gap: 10px;

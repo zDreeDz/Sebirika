@@ -1,9 +1,9 @@
 $(document).ready(function(){ 
   
-  console.log('ibc ready');
-    const pageWidth = document.documentElement.scrollWidth
-    const pageHeight = document.documentElement.scrollHeight
-    console.log(pageWidth,pageHeight);    
+  // console.log('ibc ready');
+  //   const pageWidth = document.documentElement.scrollWidth
+  //   const pageHeight = document.documentElement.scrollHeight
+  //   console.log(pageWidth,pageHeight);    
 
     $('.slider-multiple-items').slick({
         infinite: true,

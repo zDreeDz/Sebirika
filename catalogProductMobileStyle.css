@@ -97,6 +97,7 @@
 .container-navigation-menu {
     display:none;
 }
+
 .work-area-item-title-h1 {
     font-family: 'Gotham Pro';
     font-style: normal;
@@ -112,27 +113,86 @@
     width: 50%;
 }
 .container-menu-btn {
-    display: flex;
-    height: 10vh;
-    width: 66%;
-    margin: auto;
+    display: none;
+}
+.ibcslider-mobile{
+    display:flex;
+    margin-bottom:11px;
+}
+.btn-menu-all-products-mobile-all {
+    padding: 14px 20px;
     gap: 10px;
-    flex-direction: column;
-    padding-bottom: 240px;
+    width: 99px;
+    /* height: 50px; */
+    background: #FFFFFF;
+    border-radius: 30px;
+    border:solid;
+    border-color:#A1D884;
+    margin-right: 10px;
+}
+.btn-menu-all-products-mobile-body{
+    padding: 14px 20px;
+    gap: 10px;
+    width: 99px;
+    /* height: 50px; */
+    background: #FFFFFF;
+    border-radius: 30px;
+    border:solid;
+    border-color:#A1D884;
+    margin-right: 10px;
+}
+.btn-menu-all-products-mobile-face{
+    padding: 14px 20px;
+    gap: 10px;
+    width: 99px;
+    /* height: 50px; */
+    background: #A1D884;
+    border-radius: 30px;
+    border:solid;
+    border-color:#A1D884;
+    margin-right: 10px;
+}
+.btn-menu-all-products-mobile-hair{
+    padding: 14px 20px;
+    gap: 10px;
+    width: 130px;
+    /* height: 50px; */
+    background: #FFFFFF;
+    border-radius: 30px;
+    border:solid;
+    border-color:#A1D884;
+    margin-right: 10px;
+}
+.btn-menu-all-products-mobile-hand{
+    padding: 14px 20px;
+    gap: 10px;
+    width: 130px;
+    /* height: 50px; */
+    background: #FFFFFF;
+    border-radius: 30px;
+    border:solid;
+    border-color:#A1D884;
+    margin-right: 10px;
+}
+.container-work-area-catalog{
+    display: grid;
+    width: 90%;
+    margin: auto;
 }
 .container-work-area-catalog-img {
     display: grid;
-    grid-template-columns: 66%;
+    grid-template-columns: 50% 50%;
     column-gap: 20px;
 }
 .container-work-area-catalog-img >img {
     padding-bottom: 30px;
-    width: 250px;
+    width: 152px;
+    height: 138px;
 }
 .container-footer-ingredients {
     display: flex;
     flex-direction: column;
-    width: 66%;
+    width: 90%;
     margin: auto;
     align-items:start;
     padding-top:40px;
